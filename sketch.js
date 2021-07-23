@@ -29,7 +29,7 @@ function draw() {
   image(issimg, 100, -130);
 
   if (spacecraft.isTouching(iss)) {
-    text("Docked!", 400, 200);
+    text("Docking Successful", 400, 200);
     gameState = "docked";
   }
   if (gameState === "undocked") {
